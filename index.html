@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div class="video-background">
-    <video autoplay muted loop>
-        <source src="https://monta44.github.io/merry-christmas/Chiasso%20Station%20Train.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="Chiasso Station Train.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
     <div class="content">
         <div class="text-box">
             <p>
@@ -28,12 +28,7 @@
     <audio id="background-music" loop>
         <source src="Ludovico Einaudi - Primavera.mp3" type="audio/mp3">
     </audio>
-    <script>
-        // Avvia la musica di sottofondo al caricamento della pagina
-        window.onload = () => {
-            const music = document.getElementById('background-music');
-            music.play();
-        };
-    </script>
+    <!-- Collega lo script -->
+    <script src="script.js"></script>
 </body>
 </html>
