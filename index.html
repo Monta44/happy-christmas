@@ -1,1 +1,39 @@
-<p>Hello World!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="Chiasso Station Train.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="content">
+        <div class="text-box">
+            <p>
+                🎄 Era una fredda notte d'inverno quando il villaggio si preparava per il Natale. 🎁 
+                La neve copriva le strade, e le luci illuminavano ogni casa, creando un'atmosfera magica...
+            </p>
+            <p>
+                🌟 Ogni famiglia era riunita davanti al camino, raccontando storie e condividendo risate.
+                Ma in cima alla collina, un bambino sognava di incontrare Babbo Natale. 🎅
+            </p>
+        </div>
+    </div>
+    <audio id="background-music" loop>
+        <source src="Ludovico Einaudi - Primavera.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        // Avvia la musica di sottofondo al caricamento della pagina
+        window.onload = () => {
+            const music = document.getElementById('background-music');
+            music.play();
+        };
+    </script>
+</body>
+</html>
